@@ -10,3 +10,10 @@ num = int(num)
 
 # YOUR CODE HERE
 
+def isNum(n):
+    if n % 2 == 0:
+        print("Even!")
+    else:
+        print("Odd!")
+
+isNum(num)
